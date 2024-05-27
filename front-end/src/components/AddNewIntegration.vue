@@ -90,7 +90,7 @@ export default {
         return;
       }
 
-      const response = await axios.post('/save');
+      const response = await axios.post('/api/save');
       console.log(response?.data)
     };
 
@@ -99,7 +99,7 @@ export default {
         return;
       }
 
-      const response = await axios.post('/send-test');
+      const response = await axios.post('/api/send-test');
       console.log(response?.data)
     };
 
