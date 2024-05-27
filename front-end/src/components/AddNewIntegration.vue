@@ -99,7 +99,7 @@ export default {
         return;
       }
 
-      const response = await axios.post('/api/send-test');
+      const response = await axios.post('/api/send-test', form.value);
       console.log(response?.data)
     };
 
